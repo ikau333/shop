@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ product.name }}</title>
+</head>
+<body>
+
+    <h1>{{ product.name }}</h1>
+
+    <p>Description: {{ product.description }}</p>
+    <h2>Price: ${{ product.price }}</h2>
+    <p>Available stock: {{ product.stock }}</p>
+
+    <a href="{% url 'products' %}">Back to Products</a>
+
+</body>
+</html>
+
